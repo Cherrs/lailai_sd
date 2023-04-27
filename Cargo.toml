@@ -1,0 +1,19 @@
+[package]
+name = "lailaisd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures-lite = "1.13.0"
+lapin = "2.1.1"
+tracing-subscriber = "0.3.17"
+tokio = { version = "1.28.0", features = ["full"] }
+anyhow = "1.0.70"
+tracing = "0.1.38"
+reqwest = { version = "0.11.16", features = ["json"] }
+serde_json = "1.0.96"
+base64 = "0.21.0"
+serde = "1.0.160"
+image = "0.24.6"
