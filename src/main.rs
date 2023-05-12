@@ -1,3 +1,4 @@
+#![recursion_limit = "1024"]
 use anyhow::{anyhow, Result};
 use futures_lite::StreamExt;
 use lapin::{
